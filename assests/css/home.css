@@ -9,7 +9,7 @@ body{
     margin-top: 25px;
 }
 #contacts-list-container,form{
-    width: 50%;
+    width: 80%;
     height: auto;
     margin: auto;
 }
@@ -48,3 +48,21 @@ form input,button{
       box-shadow: 1px;
 }
 
+@media screen and (max-width: 800px) {
+    #contacts-list-container
+    {
+        width:100%;
+    }
+    .contact{
+        width:85%;
+    }
+  }
+  @media screen and (max-width: 500px) {
+    #contacts-list-container
+    {
+        width:100%;
+    }
+    .contact{
+        width:80%;
+    }
+  }
